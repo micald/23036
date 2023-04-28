@@ -1,0 +1,36 @@
+*{
+    style=background-image: url("")
+}
+.divfijo{    /*padre */
+    background-color:blue ;
+    width: 50%;
+    height: 500px;
+}
+.subdivfijo{  /*hijo */
+    background-color: bisque;
+width: 500px;
+height: 50%;
+}
+.h1fijo{
+    font-size: 70px;
+}
+.pfijo{
+    font-size: 30px;
+}
+.spanfijo{
+    font-size: 30px;
+}
+:root{
+    font-size: 22px
+}
+.h1relativo{
+    font: 2em;
+}
+.prelativo{
+    font-size: 1em;
+}
+
+
+/*unidades de medidas para fuentes em/rem/ex  */
+ /*unidades de medidas fijo se usa PX  */
+ /*unidades de medidas relativas se usa (div)  % o vw/vh  */

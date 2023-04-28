@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h2>Formulario</h2>
+<form action="mostrar-datos" method="POST" target="_blank">
+<fieldset>
+    <legend>Datos de la Persona</legend>
+    <label for="Nombre">Nombre</label>
+    <input required type="text" size="20" name="nombre"
+    placeholder="ingrese su nombre completo"> <br>
+
+    <label for="Apellido">Apellido:</label>
+    <input required type="text" size="30" maxlength="35" name="Apellido"
+    placeholder="Ingrese su apellido"><br>
+    
+    <label for="Dirección">Dirección:</label>
+    <input type="text" size="30" name="Dirección"
+    placeholder="Ingrese su dirección"><br>
+    
+    <label for="Teléfono">Teléfono:</label>
+    <input type="number" size="30" name="Teléfono"
+    placeholder="ingrese su teléfono"><br>
+    
+    <label for="Mail">Mail:</label>
+    <input type="email" size="50" maxlength="55" 
+    placeholder="Ingrese su mail"><br>
+
+    <label for="pass">Password:</label>
+    <input type="password"><br>
+
+    <label for="fecha">Fecha de nacimiento:</label>
+    <input type="date"><br>
+</fieldset>
+
+<p>Conocimientos: </p>
+<input type="checkbox" name="conocimientos" value="HTML">HTML<br>
+<input type="checkbox" name="conocimientos" value="CSS">CSS<br>
+<input type="checkbox" name="conocimientos" value="JS">JS<br>
+<input type="checkbox" name="conocimientos" value="GIT">GIT<br>
+
+<div>
+    <h2>Seleccione la banda horaria:</h2>
+    <input type="radio" name="horario">Mañana<br>
+    <input type="radio" name="horario">Tarde<br>
+    <input type="radio" name="horario">Noche<br>
+
+</div>
+
+<label for="Estudios">Seleccione el nivel de estudios<label><br>
+
+<select>
+  <option value="primaria">Primaria</option>
+  <option value="secundario">Secundario</option>
+  <option value="terciario">Terciario</option>
+</select><br>
+<br>
+<label for="Comentario">Comentario:</label><br>
+<textarea name="comentario" id="" cols="30" rows="10"
+placeholder=" Ingrese su comentario desde el placeholder"></textarea><br>
+
+<input type="submit" value="ENVIAR">
+<button type="reset"> RESET</button>
+<br>
+
+</form>
+</body>
+</html> 
